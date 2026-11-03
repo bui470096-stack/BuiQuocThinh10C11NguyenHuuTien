@@ -1,0 +1,6 @@
+{
+  "name": "Tính cấu hình electron",
+  "description": "Ứng dụng tra cứu và tính cấu hình electron cho 118 nguyên tố hóa học và ion, kèm sơ đồ orbital, mô hình Bohr, 4 số lượng tử và trắc nghiệm tương tác.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

@@ -1,0 +1,23 @@
+@import "tailwindcss";
+
+@layer utilities {
+  .grid-cols-18 {
+    display: grid;
+    grid-template-columns: repeat(18, minmax(0, 1fr));
+  }
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(6px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.animate-fade-in {
+  animation: fadeIn 0.3s ease-out forwards;
+}
